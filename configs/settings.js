@@ -22,8 +22,8 @@ module.exports = {
     DB: 'doracms2',
     HOST: '127.0.0.1',
     PORT: 27017,
-    USERNAME: 'doracms',
-    PASSWORD: 'password',
+    USERNAME: 'doramart',
+    PASSWORD: 'doramart',
 
     // 七牛配置
     openqn: false, //是否开启,若为true 则下面的信息必须配置正确完整
@@ -38,7 +38,7 @@ module.exports = {
     openRedis: true, // 测试或生产环境必须开启
     redis_host: '127.0.0.1',
     redis_port: 6379,
-    redis_psd: 'your redis password',
+    redis_psd: 'test123',
     redis_db: 0,
     redis_ttl: 12, // 12 小时
 
@@ -66,6 +66,3 @@ module.exports = {
     system_error_imageType: '文件格式不正确，请重新上传',
     system_error_upload: '上传失败，请稍后重试'
 };
-
-
-
