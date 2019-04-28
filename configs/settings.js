@@ -66,3 +66,6 @@ module.exports = {
     system_error_imageType: '文件格式不正确，请重新上传',
     system_error_upload: '上传失败，请稍后重试'
 };
+
+
+
